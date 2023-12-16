@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: #FFE9AA ;
+    
+}
+
+/* css for the whole card container */
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 40px;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: #FFFAED;
+    box-shadow: 8px 8px 8px rgba(255, 189, 0, 0.2) ;
+}
+
+/* css for title div */
+.title {
+    color: #ed786a;
+}
+.underline {
+    border-top: 6px solid #888;
+    padding: 10px 20px 0px 20px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* css for image size and fit */
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 1.8rem;
+  }
+
+/* css for cooking guide orderlist */
+#guidelist {
+    text-align: left;
+}  
+#guidelist li {
+    padding: 0.4rem;
+}
+
+/* css for button container */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* css for all buttons */
+button {
+    border: none;
+    padding: 0.5rem;
+    margin: 0.3rem;    
+}
+
+/* css for prev next buttons */
+.prev-btn{
+    border-radius: 0.5rem;
+    background-color: #FFFAED;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    color: #ed786a;
+}
+.prev-btn:hover {
+    color: #fd887a;
+}
+
+.next-btn{
+    border-radius: 0.5rem;
+    background-color: #FFFAED;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    color: #ed786a;
+}
+.next-btn:hover {
+    color: #fd887a;
+}
+
+/* css for the random button */
+.random-btn {
+    border-radius: 0.5rem;
+    background-color: #ed786a ;
+    color: white;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.random-btn:hover {
+    background-color: #fd887a ;
+    
+}
+
+/* css for fontawesome icons btw paragraphs */
+.fa-shopping-basket{
+    color: #ed786a;
+}
+.fa-cutlery {
+    color: #ed786a;
+}
